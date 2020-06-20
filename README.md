@@ -71,17 +71,17 @@ At Home Collection; At Home Execution ( At Home Antibody Tests )
 
 <img src="images/how_it_works.png">
 
-<img src="Zero-Knowledge Proofs/images/ipfs.png"> <img src="Zero-Knowledge Proofs/images/json.png"><img src="Zero-Knowledge Proofs/images/fire.png" width="100">
+<img src="Zero Knowledge Proof/images/ipfs.png"> <img src="Zero Knowledge Proof/images/json.png"><img src="Zero Knowledge Proof/images/fire.png" width="100">
 
 
 
 ## Flexi Test Port :  ZK Proof to verify Patient(or Consumer) safety
  
- <img src="Zero-Knowledge Proofs/images/covid.png">
+ <img src="Zero Knowledge Proof/images/covid.png">
 
 The Checker is an abstraction and could include individuals or organizations such as  airport authorities, event management authorities, law enforcement or any such organization who has gained and can prove the verifier status.
 
-<img src="Zero-Knowledge Proofs/images/zkpIMP.PNG">
+<img src="Zero Knowledge Proof/images/zkpIMP.PNG">
 
 
 
