@@ -1,0 +1,30 @@
+{
+  "inputs": [
+    {
+      "name": "n",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "s",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "r",
+      "public": false,
+      "type": "field"
+    }
+  ],
+  "outputs": [
+    {
+      "type": "field"
+    },
+    {
+      "type": "field"
+    },
+    {
+      "type": "field"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+def completed(private field n)-> (field):
+ field result = if n ==0 then 0 else 1 fi
+ return result+1
+ 
+def ongoing(private field s)-> (field):
+ field result = if s ==0 then 0 else 1 fi
+ return result+2
+ 
+ 
+def result(private field valueboolean)-> (field):
+ field covid_result= if valueboolean==0 then 0 else 1 fi
+ return covid_result+3
+
+def main(private field n, private field s, private field r)-> (field, field, field):
+
+field r1 = completed(n)
+field r2 = ongoing(s)
+field r3 = result(r)
+return r1, r2, r3
+
