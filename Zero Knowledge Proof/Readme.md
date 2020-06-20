@@ -6,7 +6,7 @@
 
 
 # ZK-Proofs in FlexiTest Port
-We plan to implement multiple Zero Knowledge Proofs  in our project CryptoCare. The following content describes the ways we see the zkproof(s) being used in the project, covering the conceptual and functional aspects of it along the way. ZK-Proofs have undeniably become a benchmark in privacy protecting technologies.
+We plan to implement multiple Zero Knowledge Proofs  in our project FlexiTest Port. The following content describes the ways we see the zkproof(s) being used in the project, covering the conceptual and functional aspects of it along the way. ZK-Proofs have undeniably become a benchmark in privacy protecting technologies.
 
 The following implementations are subject to changes as per the latest HL7 FHIR release for the medical documents and JSON files.
 
