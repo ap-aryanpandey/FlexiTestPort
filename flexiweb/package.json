@@ -1,0 +1,26 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ipfs-http-client": "^44.2.0",
+    "it-all": "^1.0.2",
+    "nodemon": "^2.0.4",
+    "require": "^2.4.20",
+    "web3": "^1.2.9"
+  }
+}
