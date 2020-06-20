@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>Checker Dashboard</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="/assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="/assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="/assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="/assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="/assets/css/demo.css" rel="stylesheet">
+    <link type="text/css" href="/assets/css/custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d8c542775.js" crossorigin="anonymous"></script>
+    <style>
+        /* Center the loader */
+        #loader {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          z-index: 1;
+          width: 150px;
+          height: 150px;
+          margin: -75px 0 0 -75px;
+          border: 16px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 16px solid #3498db;
+          width: 120px;
+          height: 120px;
+          -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        
+        /* Add animation to "page content" */
+        .animate-bottom {
+          position: relative;
+          -webkit-animation-name: animatebottom;
+          -webkit-animation-duration: 1s;
+          animation-name: animatebottom;
+          animation-duration: 1s
+        }
+        
+        @-webkit-keyframes animatebottom {
+          from { bottom:-100px; opacity:0 } 
+          to { bottom:0px; opacity:1 }
+        }
+        
+        @keyframes animatebottom { 
+          from{ bottom:-100px; opacity:0 } 
+          to{ bottom:0; opacity:1 }
+        }
+        
+        #myDiv {
+          display: none;
+          text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary py-4">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><strong>CryptoCare</strong></a>
+          <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+            <ul class="navbar-nav ml-auto align-items-lg-center">
+              <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+  
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">COVID-19 Status</a>
+              </li>
+  
+  
+  
+              <li class="nav-item">
+                <a href="login.html" target="login.html" class="nav-link d-lg-none">Log Out</a>
+                <a href="login.html" target="login.html" class="btn btn-sm bg-white d-none d-lg-inline-flex">Log out</a>
+              </li>
+              <div class="dropdown-divider d-lg-none my-4"></div>
+              <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main">
+
+
+
+
+
+        <div class="container">
+          <br><br><br>
+          <h2>Checker Dashboard</h2>
+        </div>
+        <div class="container align-items-center">
+            <div class="row">
+                <div class="container d-flex align-items-center no-padding">
+                    <div class="col walletcard">
+                      <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                          <div class="card bg-white z-depth-3">
+                            <div class="card-body">
+                                <div class="container">
+                                    
+    
+                                    
+                                    <h3><strong>Organization Name:</strong>&nbsp;&nbsp;Indigo Airlines</h3>
+    
+                                    
+    
+                                    
+    
+    
+    
+                                  </div>
+                                  <br><br><br>
+                                <div class="container">
+
+
+                                    <form class="form-secondary">
+    
+                                      <div class="form-group">
+                                        <input type="text" class="form-control " id="patient_did" placeholder="Enter Patient DID">
+                                      </div>
+    
+                                     <div class="row">
+                                         <div class="col checkbtnleft">
+
+                                            <button type="button" class="btn bg-primary mt-4 text-white checkerbtn" data-toggle="modal" data-target="#modal_5" onclick="myFunction()">Request Proof</button>
+                                            <div class="modal modal-white fade"  id="modal_5" tabindex="-1" role="dialog" aria-labelledby="modal_5" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="modal_title_6">Wait for patient to approve your request..</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body" style="height: 400px;">
+                                                            <div id="loader"></div>
+
+                                                            <div style="display:none;" id="myDiv" class="animate-bottom">
+                                                              
+                                                              <h4 class="text-success" style="padding-top: 170px;">The patient has shared the Result</h4>
+                                                              
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="modal-footer" >
+                                                            <button type="button" style="display:none;" id="myDiv2" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                         </div>
+                                         <div class="col checkbtnleft">
+                                            <button type="button" class="btn bg-success mt-4 text-white checkerbtn" onclick="window.location.href = '/Checker/Indigo/Results';">View Results</button>
+
+                                         </div>
+                                        </div>
+
+                                      
+    
+                                    </form>
+    
+    
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+            </div>
+        </div>
+
+      </main>
+      <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 10000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+          document.getElementById("myDiv2").style.display = "block";
+        }
+      </script>
+        
+    <!-- Core -->
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="/assets/vendor/popper/popper.min.js"></script>
+    <script src="/assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="/assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="/assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="/assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="/assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="/assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="/assets/vendor/holderjs/holder.min.js"></script>
+    <script src="/assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="/assets/js/theme.js"></script>
+    
+</body>
+</html>
