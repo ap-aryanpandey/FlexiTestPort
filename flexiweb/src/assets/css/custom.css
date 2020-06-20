@@ -1,0 +1,92 @@
+.cardtext{
+  margin-top: 16px;
+}
+.dashbut{
+  width: 211px;
+  height: 200px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  /* horizontal-align: middle; */
+  /* text-align: center; */
+}
+.btn-inner--text{
+  margin-left: 0px;
+  font-size: 110%;
+}
+.btntext2{
+  margin-bottom: 0px;
+  font-size: 120%;
+}
+.navavatar{
+  margin-right: 7px;
+}
+.walletcard{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.backbtn{
+  padding-top: 30px;
+}
+.avatarwallet{
+  width: 110px;
+  height: 110px;
+  font-size: 200%;
+}
+.usrname{
+  padding-top: 15px;
+}
+.walletbtns{
+  width: 150px;
+}
+.btnrow{
+  padding-left: 50px;
+}
+.padleft{
+  padding-left: 115px;
+  padding-bottom: 15px;
+}
+.nav-pills .nav-link.active{
+  color: #288cff;
+}
+.fileupload{
+  width: 200px;
+}
+.cardfont{
+  font-size: 125%;
+}
+.addresspad{
+  margin-bottom: 0px;
+}
+.patbtn{
+  width: 160px;
+}
+.attres{
+  width: 150px;
+}
+.logincard{
+  height: 680px;
+}
+.lessmargin{
+  font-size: 100%;
+  margin-bottom: 2px;
+}
+.avatpad{
+  padding-top: 10px;
+}
+.dbutn{
+  padding-right: 46px;
+} 
+.btnreport{
+  width: 130px;
+}
+.checkerbtn{
+  width: 230px;
+}
+
+.checkbtnleft{
+  padding-left: 50px;
+}
+
+.resultupld{
+  width: 50px;
+}
