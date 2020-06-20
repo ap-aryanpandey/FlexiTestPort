@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300"  src="images/CryptoCare logo.png">
+  <img width="300"  src="images/FlexiTestPort logo.png">
   <h1 align= "center">CryptoCare</h1>
 </p>
 Patient-centered, privacy protected testing framework leveraging blockchains and distributed data storage to run a point of care or home test. Objectives are to increase safety for both patients and doctors, to reduce the lead time around current processes, to have identity based provenance, consumer-based consent based data share and de-identified reporting and a privacy-protected minimal proof of safety for use in a possible passport.
@@ -54,9 +54,9 @@ Patient-centered, privacy protected testing framework leveraging blockchains and
 
 Please refer to the details at 
 
-https://github.com/Hack-Rx/CryptoCare/blob/master/README.md
+https://github.com/ap-aryanpandey/FlexiTestPort-/blob/master/README.md
 
-https://github.com/Hack-Rx/CryptoCare/blob/master/Zero-Knowledge%20Proofs/Readme.md
+https://github.com/ap-aryanpandey/FlexiTestPort-/blob/master/Zero%20Knowledge%20Proof/Readme.md
 
 ## Illustrations
 
@@ -86,7 +86,7 @@ The Checker is an abstraction and could include individuals or organizations suc
 
 
 # Team
-<img src="images/Crypto Care.png">
+<img src="images/FlexiTestPort.png">
 
  * ### Devansh Swarup 
    [<img src="images/linkedin.png">](https://in.linkedin.com/in/devansh-swarup-85436554)     [<img src="images/github.png">](https://github.com/devansh2712)
