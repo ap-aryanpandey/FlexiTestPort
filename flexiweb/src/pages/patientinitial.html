@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>Patient Dashboard</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d8c542775.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary py-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>CryptoCare</strong></a>
+        <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">COVID-19 Status</a>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a href="login.html" target="login.html" class="nav-link d-lg-none">Log Out</a>
+              <a href="login.html" target="login.html" class="btn btn-sm bg-white d-none d-lg-inline-flex">Log out</a>
+            </li>
+            <div class="dropdown-divider d-lg-none my-4"></div>
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="S" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <main class="main">
+
+      <section class="py-xl bg-cover bg-size--cover" style="background-image: url('../assets/images/backgrounds/img-9.jpg'); object-fit:cover;">
+
+
+
+      <div class="container">
+        <h2>Patient Dashboard</h2>
+      </div>
+
+      <br>
+      <div class="container align-items-center">
+          <div class="row">
+
+            <div class="container d-flex align-items-center no-padding">
+                    <div class="col walletcard">
+                      <div class="row justify-content-center">
+                        <div class="col-lg-9">
+                          <div class="card bg-secondary z-depth-3">
+                            <div class="card-body">
+
+                              <center>
+
+                                <br>
+
+
+
+                              </center>
+                              <div class="container">
+                                <p><h4>Identity Details:-</h4></p>
+
+                                <form class="form-secondary">
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control " id="patient_name" placeholder="Patient Name">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="patient_id_no" placeholder="Patient Identification Number">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <label>Patient Address</label>
+                                      <textarea class="form-control" id="patient_address" placeholder="Block/Area/City/State/Pincode" rows="3" resize="none"></textarea>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <input type="tel" class="form-control " id="patient_phno" placeholder="Patient Phone Number">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="file-1">Upload Your Identity Card :-</label>
+                                    <div class="fileupload">
+
+                                        <input type="file" name="file-1[]" id="file-1" class="custom-input-file" data-multiple-caption="{count} files selected" multiple />
+                                        <label for="file-1">
+                                            <i class="fa fa-upload"></i>
+                                            <span>Choose a file…</span>
+                                        </label>
+                                    </div>
+                                  </div>
+                                  <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="Consentcheck" data-toggle="modal" data-target="#Consentcheckmod">
+                                    <label class="custom-control-label" for="Consentcheck">I consent to teletest and pay , report to public health  for 6 months and I am aware and agree that i can remove my consent at any time, after which no details will be shared to public health.</label>
+                                  </div>
+
+                                  <!-- Consent Modal -->
+                                    <div class="modal modal-secondary fade" id="Consentcheckmod" tabindex="-1" role="dialog" aria-labelledby="Consentcheckmodal" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                              <div class="modal-header">
+                                                  <h5 class="modal-title" id="modal_title_6">Terms and Conditions</h5>
+                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                  </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                  <div class="py-3 text-center">
+                                                      <i class="fas fa-exclamation-circle fa-4x"></i>
+
+                                                  </div>
+
+                                                  <div class="py-3">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+                                                  </div>
+                                              </div>
+                                              <div class="modal-footer">
+                                                  <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">No Thanks</button>
+                                                  <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">I Accept</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- Modal ends -->
+                                  <button type="submit" class="btn btn-md bg-primary mt-4 text-white">Save Changes</button>
+
+                                </form>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+
+
+
+          </div>
+    </div>
+
+    </main>
+
+
+
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+  </body>
+</html>
