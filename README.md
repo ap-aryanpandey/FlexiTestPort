@@ -24,7 +24,7 @@ Patient-centered, privacy protected testing framework leveraging blockchains and
      Issues around accountability, transparency, speediness, and privacy protected reporting of de-identified , aggregated
      numbers for public health use.
   
-     And the realization that re-opening of the economy and wide- spread high scale SAFE testing are 2 sides of the same coin.
+     And the realization that re-opening of the economy and wide-spread high scale SAFE testing are 2 sides of the same coin.
 
  The opportunities to solve these real world problems
     
@@ -41,17 +41,17 @@ Patient-centered, privacy protected testing framework leveraging blockchains and
 
 3. The solution addresses the gaps in current systems
 
-       - by having key cross-organizational patient data/ meta-data secured for accountability, and cryptographically secured          data to quickly send information between parties in the teletext workflow reducing delays
+       - by having key cross-organizational patient data/ meta-data secured for accountability, and cryptographically secured data to quickly send information between parties in the teletext workflow reducing delays
 
-       - allowing whichever parties who are covered entities that have the consented data to report to public health without            delays
+       - allowing whichever parties who are covered entities that have the consented data to report to public health without delays
     
        - de-identifying personal data and also reducing chances of re-identification 
 
 4. The solution entails innovative elements to 
 
-       -incorporate standards like FHIR in to the solution for the business objects
+       - incorporate standards like FHIR in to the solution for the business objects
 
-       -use Zero Knowledge proof designs and to design the arithmetic circuits to find if the user has been tested, and the status of their test results to the checker archetype in a minimalistic proof.
+       - use Zero Knowledge proof designs and to design the arithmetic circuits to find if the user has been tested, and the status of their test results to the checker archetype in a minimalistic proof.
 
 Please refer to the details at 
 
