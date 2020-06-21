@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+    <title>FlexiTest Log in</title>
+    <style media="screen">
+      .cardtext{
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark bg-dark py-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>FlexiTest</strong></a>
+        <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="register.html" target="_blank" class="nav-link d-lg-none">Sign up</a>
+              <a href="register.html" target="_blank" class="btn btn-sm bg-white d-none d-lg-inline-flex">Sign up</a>
+            </li>
+            <div class="dropdown-divider d-lg-none my-4"></div>
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://instagram.com/webpixelsofficial/" target="_blank"><i class="fab fa-instagram"></i><span class="ml-2 d-lg-none">Instagram</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://web.facebook.com/webpixels" target="_blank"><i class="fab fa-facebook"></i><span class="ml-2 d-lg-none">Facebook</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://dribbble.com/webpixels" target="_blank"><i class="fab fa-dribbble"></i><span class="ml-2 d-lg-none">Dribbble</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://github.com/webpixels" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="py-xl bg-cover bg-size--cover" style="background-image: url('../assets/images/backgrounds/img-5.jpg')">
+      <span class="mask bg-primary alpha-6"></span>
+      <div class="container d-flex align-items-center no-padding">
+        <div class="col">
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <div class="card bg-primary text-white">
+                <div class="card-body">
+                  <button type="button" class="btn btn-primary btn-nobg btn-zoom--hover mb-5">
+                    <span class="btn-inner--icon"><i class="fas fa-arrow-left"></i></span>
+                  </button>
+                  <span class="clearfix"></span>
+                  <img src="../assets/images/brand/icon2.png" style="width: 50px;">
+                  <h4 class="heading h3 text-white pt-3 pb-5">Welcome back,<br>
+                    login to your account.</h4>
+                  <form class="form-primary">
+                    <div class="custom-control custom-checkbox mb-3">
+                        <input type="checkbox" class="custom-control-input didcheck" id="DIDcheck">
+                        <label class="custom-control-label" for="DIDcheck">I have a DID</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control nodid" id="input_email" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control nodid" id="input_password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control yesdid" id="input_did" placeholder="Enter your DID">
+                    </div>
+                    <div class="text-right mt-4"><a href="#" class="text-white">Forgot password?</a></div>
+                    <button type="submit" class="btn btn-block btn-lg bg-white mt-4">Sign in</button>
+                  </form>
+                  <h5 class="cardtext text-center text-white ortext">OR</h5>
+                  <button type="submit" class="btn btn-block btn-lg bg-white mt-4">Register now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="../assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+
+    <script type="text/javascript">
+    var btn = document.querySelector(".didcheck");
+    $(".yesdid").hide();
+    btn.addEventListener("click", function(){
+        if($('.didcheck').is(":checked"))
+            $(".nodid").hide();
+        else
+            $(".nodid").show();
+    })
+    btn.addEventListener("click", function(){
+        if($('.didcheck').is(":checked"))
+            $(".yesdid").show();
+        else
+            $(".yesdid").hide();
+    })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>My Wallet</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d8c542775.js" crossorigin="anonymous"></script>
+    <style>
+        .walletcard{
+          padding-top: 40px;
+          padding-bottom: 40px;
+        }
+        .backbtn{
+          padding-top: 30px;
+        }
+        .avatarwallet{
+          width: 100px;
+          height: 100px;
+        }
+        .usrname{
+          padding-top: 15px;
+        }
+        .walletbtns{
+          width: 150px;
+        }
+        .btnrow{
+          padding-left: 50px:
+        }
+        .padleft{
+          padding-left: 115px;
+          padding-bottom: 15px;
+        }
+        .nav-pills .nav-link.active{
+          color: #288cff;
+        }
+        .fileupload{
+          width: 200px;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary py-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>FlexTest</strong></a>
+        <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" target="_blank" class="nav-link d-lg-none">Log Out</a>
+              <a href="login.html" target="_blank" class="btn btn-sm bg-white d-none d-lg-inline-flex">Log out</a>
+            </li>
+            <div class="dropdown-divider d-lg-none my-4"></div>
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://github.com/webpixels" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+
+      <div class="row backbtn">
+        <div class="container">
+          <button type="button" class="btn btn-sm btn-link btn-icon text" onclick="window.location.href = 'patient.html';">
+          <span class="btn-inner--icon"><i class="fas fa-arrow-left fa-lg"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Tab navigation for wallet -->
+
+      <div class="container">
+        <ul class="nav nav-pills nav-fill flex-column flex-sm-row" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link mb-sm-3 active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Employment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mb-sm-3" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">State Identification</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mb-sm-3" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Insurance</a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="tab-content" id="myTabContent">
+          <!-- Employment Information -->
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                <div class="container d-flex align-items-center no-padding">
+                        <div class="col walletcard">
+                          <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                              <div class="card bg-secondary">
+                                <div class="card-body">
+                                  <center>
+                                    <img src="../assets/images/prv/thumb-1.jpg" class="avatar avatar-lg avatarwallet">
+
+                                    <br>
+                                    <h3 class="usrname"><strong>Jane Doe</strong></h3>
+
+
+                                  </center>
+                                  <div class="container">
+                                    <p><h4>Identity Details:-</h4></p>
+
+                                    <form class="form-secondary">
+
+                                      <div class="form-group">
+                                        <input type="text" class="form-control yesdid" id="emp_name" placeholder="Employer Name">
+                                      </div>
+
+                                      <div class="form-group">
+                                        <input type="text" class="form-control yesdid" id="emp_id_no" placeholder="Employer Identification Number">
+                                      </div>
+
+                                      <div class="form-group">
+                                        <input type="text" class="form-control yesdid" id="employee_id_no" placeholder="Employee Identification Number">
+                                      </div>
+
+                                      <div class="form-group">
+                                          <label>Empyer Address</label>
+                                          <textarea class="form-control" id="emp_address" placeholder="Block/Area/City/State/Pincode" rows="3" resize="none"></textarea>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <input type="tel" class="form-control yesdid" id="emp_phno" placeholder="Employee Phone Number">
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label for="file-1">Upload Your Employer Identity Card :-</label>
+                                        <div class="fileupload">
+
+                                            <input type="file" name="file-1[]" id="file-1" class="custom-input-file" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="file-1">
+                                                <i class="fa fa-upload"></i>
+                                                <span>Choose a file…</span>
+                                            </label>
+                                        </div>
+                                      </div>
+                                      <button type="submit" class="btn btn-md bg-primary mt-4 text-white">Save Changes</button>
+
+                                    </form>
+
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+          </div>
+
+
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <!-- State Information -->
+            <div class="container d-flex align-items-center no-padding">
+                    <div class="col walletcard">
+                      <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                          <div class="card bg-secondary">
+                            <div class="card-body">
+                              <center>
+                                <img src="../assets/images/prv/thumb-1.jpg" class="avatar avatar-lg avatarwallet">
+
+                                <br>
+                                <h3 class="usrname"><strong>Jane Doe</strong></h3>
+
+
+                              </center>
+                              <div class="container">
+                                <p><h4>Identity Details:-</h4></p>
+
+                                <form class="form-secondary">
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control yesdid" id="state_name" placeholder="State of Residence">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control yesdid" id="state_id_no" placeholder="State Identification Number">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="input-group input-group-transparent mb-4">
+                                          <input type="text" class="form-control" placeholder="Issue Date">
+                                          <div class="input-group-append bg-primary">
+                                              <span class="input-group-text"><i class="fas fa-calendar text-white"></i></span>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="state_" placeholder=" Adhaar Card Number">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="file-1">Upload State Identity Card Document:-</label>
+                                    <div class="fileupload">
+
+                                        <input type="file" name="file-1[]" id="file-1" class="custom-input-file" data-multiple-caption="{count} files selected" multiple />
+                                        <label for="file-1">
+                                            <i class="fa fa-upload"></i>
+                                            <span>Choose a file…</span>
+                                        </label>
+                                    </div>
+                                  </div>
+                                  <button type="submit" class="btn btn-md bg-primary mt-4 text-white">Save Changes</button>
+
+                                </form>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+
+          </div>
+
+
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <!-- Insurance information -->
+            <div class="container d-flex align-items-center no-padding">
+                    <div class="col walletcard">
+                      <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                          <div class="card bg-secondary">
+                            <div class="card-body">
+                              <center>
+                                <img src="../assets/images/prv/thumb-1.jpg" class="avatar avatar-lg avatarwallet">
+
+                                <br>
+                                <h3 class="usrname"><strong>Jane Doe</strong></h3>
+
+
+                              </center>
+                              <div class="container">
+                                <p><h4>Identity Details:-</h4></p>
+
+                                <form class="form-secondary">
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control yesdid" id="insur_acces_id" placeholder="Accession ID">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control yesdid" id="insur_id_no" placeholder="Patient ID">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="input-group input-group-transparent mb-4">
+                                          <input type="text" class="form-control" placeholder="Test Completion date">
+                                          <div class="input-group-append bg-primary">
+                                              <span class="input-group-text"><i class="fas fa-calendar text-white"></i></span>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="insur_instu_serial_no" placeholder="Instrument Serial Number">
+                                  </div>
+
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="insur_result" placeholder="Result">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="insur_summary" placeholder="Summary">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="input-group input-group-transparent mb-4">
+                                          <input type="text" class="form-control" placeholder="Issue Date">
+                                          <div class="input-group-append bg-primary">
+                                              <span class="input-group-text"><i class="fas fa-calendar text-white"></i></span>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="input-group input-group-transparent mb-4">
+                                          <input type="text" class="form-control" placeholder="Expiry Date">
+                                          <div class="input-group-append bg-primary">
+                                              <span class="input-group-text"><i class="fas fa-calendar text-white"></i></span>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="file-1">Upload Test Result Document:-</label>
+                                    <div class="fileupload">
+
+                                        <input type="file" name="file-1[]" id="file-1" class="custom-input-file" data-multiple-caption="{count} files selected" multiple />
+                                        <label for="file-1">
+                                            <i class="fa fa-upload"></i>
+                                            <span>Choose a file…</span>
+                                        </label>
+                                    </div>
+                                  </div>
+                                  <button type="submit" class="btn btn-md bg-primary mt-4 text-white">Save Changes</button>
+
+                                </form>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-md-4 col-sm-6 padleft">
+                <button type="button" class="btn btn-sm btn-primary btn-icon walletbtns" onclick="window.location.href = 'createwallet.html';">
+                  Edit Info
+                </button>
+              </div>
+              <div class="col-md-4 col-sm-6 padleft">
+                <button type="button" class="btn btn-sm btn-primary btn-icon walletbtns" onclick="window.location.href = 'createwallet.html';">
+                  My Code
+                </button>
+              </div>
+              <div class="col-md-4 col-sm-6 padleft">
+                <button type="button" class="btn btn-sm btn-primary btn-icon walletntmn" onclick="window.location.href = 'createwallet.html';">
+                  Identity Control
+                </button>
+              </div>
+
+          </div>
+        </div>
+
+    </main>
+
+
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+  </body>
+</html>

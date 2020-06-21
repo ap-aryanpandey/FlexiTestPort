@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>Patient Dashboard</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+    <style>
+      .dashbut{
+        width: 211px;
+        height: 200px;
+        margin-bottom: 15px;
+        vertical-align: middle;
+        horizontal-align: middle;
+        /* text-align: center; */
+      }
+      .btn-inner--text{
+        margin-left: 0px;
+        font-size: 110%;
+      }
+      .btntext2{
+        margin-bottom: 0px;
+        font-size: 120%;
+      }
+      .navavatar{
+        margin-right: 7px;
+      }
+
+    </style>
+    <script src="https://kit.fontawesome.com/7d8c542775.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary py-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>FlexTest</strong></a>
+        <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html"> <img src="../assets/images/prv/thumb-1.jpg" class="avatar avatar-sm avatarwallet navavatar"> Profile</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">COVID-19 Status</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="login.html" target="_blank" class="nav-link d-lg-none">Log Out</a>
+              <a href="login.html" target="_blank" class="btn btn-sm bg-white d-none d-lg-inline-flex">Log out</a>
+            </li>
+            <div class="dropdown-divider d-lg-none my-4"></div>
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://github.com/webpixels" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <main class="main">
+
+      <section class="py-xl bg-cover bg-size--cover" style="background-image: url('../assets/images/backgrounds/img-9.jpg'); object-fit:cover;">
+
+
+
+      <div class="container">
+        <h2>Patient Dashboard</h2>
+      </div>
+
+      <br>
+      <div class="container align-items-center text-center">
+          <div class="row">
+            <div class="col-md-3  col-sm-6">
+              <button type="button" class="btn btn-sm btn-primary btn-icon dashbut" onclick="window.location.href = 'createwallet.html';">
+                  <span class="btn-inner--icon"><i class="fas fa-wallet fa-3x"></i></span>
+                  <br>
+                  <br>
+                  <!-- <span class="btn-inner--text"> --><p class=btntext2>Wallet</p>
+                <!-- </span> -->
+              </button>
+            </div>
+
+            <div class="col-md-3  col-sm-6">
+              <button type="button" class="btn btn-sm btn-primary btn-icon dashbut" onclick="window.location.href = 'consult.html';">
+                  <span class="btn-inner--icon"><i class="fas fa-user-md fa-4x"></i></span>
+                  <br>
+                  <br>
+                  <!-- <span class="btn-inner--text"> --><p class=btntext2>Consult to test for Covid-19 </p>
+                <!-- </span> -->
+              </button>
+            </div>
+
+
+
+          </div>
+    </div>
+
+    </main>
+
+
+
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/custom.css" rel="stylesheet">
+    <title>Patient Log in</title>
+    <style media="screen">
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark bg-dark py-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>FlexiTest Port</strong></a>
+        <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="register.html" target="_blank" class="nav-link d-lg-none">Sign up</a>
+              <a href="register.html" target="_blank" class="btn btn-sm bg-white d-none d-lg-inline-flex">Sign up</a>
+            </li>
+            <div class="dropdown-divider d-lg-none my-4"></div>
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://github.com/chainaim3003/FlexiTest" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="py-xl bg-cover bg-size--cover" style="background-image: url('../assets/images/backgrounds/img-5.jpg')">
+      <span class="mask bg-primary alpha-4"></span>
+      <div class="container d-flex align-items-center no-padding">
+        <div class="col">
+          <div class="row justify-content-center">
+            <div class="col-lg-6  ">
+              <div class="card bg-primary text-white logincard">
+                <div class="card-body">
+
+                  <span class="clearfix"></span>
+                  <br><br><br>
+                  <img src="../assets/images/brand/icon2.png" style="width: 50px;">
+                  <h2 class="heading h2 text-white pt-3 pb-5">Welcome back,<br>
+                    login to your account.</h2>
+                    
+                    <form class="form-primary">
+                      <div class="custom-control custom-checkbox mb-3">
+                          <input type="checkbox" class="custom-control-input didcheck" id="DIDcheck">
+                          <label class="custom-control-label" for="DIDcheck">I have a DID</label>
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control nodid" id="input_email" placeholder="Your email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control nodid" id="input_password" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control yesdid" id="input_did" placeholder="Enter your DID">
+                      </div>
+
+
+                      <button type="button" class="btn btn-block btn-lg bg-white mt-4" onclick="window.location.href = 'patientfinal.html';">Sign in</button>
+
+                      <br>
+                      <center>
+                        <h5 class="text-white">....OR   Sign in through</h5>
+                      </center>
+                      
+                        <br>
+
+                      <center>
+                        <div class="row">
+                          <div class="col">
+                            <button type="button" class="btn btn-sm btn-secondary btn-icon-label dbutn">
+                              <span class="btn-inner--icon"><img src="../assets/images/brand/uport.png" style="width: 30px; padding-top: 2px;"></span>
+                              <span class="btn-inner--text">UPort</span>
+                            </button>
+                          </div>
+                          <div class="col">
+                            <button type="button" class="btn btn-sm btn-secondary btn-icon-label dbutn">
+                              <span class="btn-inner--icon"><img src="../assets/images/brand/iden3.png" style="width: 30px; padding-top: 2px;"></span>
+                              <span class="btn-inner--text">Iden3</span>
+                            </button>
+                          </div>
+                          <div class="col">
+                            <button type="button" class="btn btn-sm btn-secondary btn-icon-label dbutn">
+                              <span class="btn-inner--icon"><img src="../assets/images/brand/3box.png" style="width: 30px; padding-top: 2px;"></span>
+                              <span class="btn-inner--text">3box</span>
+                            </button>
+                          </div>
+                          
+                          
+                          
+                        </div>
+                        
+                      </center>
+
+
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="pt-5 pb-3 footer  footer-dark bg-tertiary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10">
+            <div class="pr-lg-5">
+              <h1 class="heading h6 text-uppercase font-weight-700 mb-3"><strong>Flexi</strong> Test</h1>
+              <p>Patient-centered, privacy protected testing framework leveraging DLT/immutable ledgers to run a point of care or home test. Objective to reduce the lead time around current processes, increase safety for both patients and doctors ( including a identity based provenance )and consumer-based consent based data share.</p>
+            </div>
+          </div>
+
+
+          <div class="col-6 col-md-2">
+            <h5 class="heading h6 text-uppercase font-weight-700 mb-3">About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="https://github.com/chainaim3003/FlexiTest">Github</a></li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="../assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+
+    <script type="text/javascript">
+    var btn = document.querySelector(".didcheck");
+    $(".yesdid").hide();
+    btn.addEventListener("click", function(){
+        if($('.didcheck').is(":checked"))
+            $(".nodid").hide();
+        else
+            $(".nodid").show();
+    })
+    btn.addEventListener("click", function(){
+        if($('.didcheck').is(":checked"))
+            $(".yesdid").show();
+        else
+            $(".yesdid").hide();
+    })
+    </script>
+
+  </body>
+</html>

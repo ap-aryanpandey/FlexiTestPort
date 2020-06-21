@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>Appointments</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d8c542775.js" crossorigin="anonymous"></script>
+    <style>
+      .backbtn{
+        padding-top: 30px;
+      }
+      .app-checkbox{
+        margin-left: 10px;
+      }
+      .heading-text{
+        padding-left: 17px;
+        padding-bottom: 10px
+      }
+      .pad-left{
+        padding-left: 20px;
+        padding-bottom: 20px;
+      }
+      .walletbtns{
+
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary py-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>FlexTest</strong></a>
+        <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html"> <img src="../assets/images/prv/thumb-1.jpg" class="avatar avatar-sm avatarwallet navavatar"> Profile</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">COVID-19 Status</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="login.html" target="_blank" class="nav-link d-lg-none">Log Out</a>
+              <a href="login.html" target="_blank" class="btn btn-sm bg-white d-none d-lg-inline-flex">Log out</a>
+            </li>
+            <div class="dropdown-divider d-lg-none my-4"></div>
+            <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://github.com/webpixels" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+
+      <div class="row backbtn">
+        <div class="container">
+          <button type="button" class="btn btn-xl btn-link btn-icon text" onclick="window.location.href = 'doctor.html';">
+          <span class="btn-inner--icon"><i class="fas fa-arrow-left fa-lg"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container">
+        <h2 class="heading-text">Pending Requests</h2>
+      </div>
+
+      <div class="container">
+        <table class="table table-hover align-items-center">
+            <thead>
+                <tr>
+
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Patient id</th>
+                    <th scope="col">Appointment Date</th>
+                    <th scope="col">Select</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white" scope="row">
+
+                    <td>
+                        <div class="media align-items-center">
+                            <img src="../assets/images/prv/thumb-1.jpg" class="avatar avatar-lg mr-3">
+                            <div class="media-body">
+                                <h6 class="h5 font-weight-normal mb-0">Nabiha Armstrong</h6>
+                                <span class="font-weight-normal text-muted">Emergency Worker</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>nabiha.armstrong@example.com</td>
+                    <td>Cluj Napoca, RO</td>
+                    <td>1001</td>
+                    <td>Jan 1 2000</td>
+                    <td>
+                        <div class="custom-control custom-checkbox app-checkbox">
+
+                            <input type="checkbox" class="custom-control-input" id="td_checkbox_1">
+                            <label class="custom-control-label" for="td_checkbox_1"></label>
+
+                        </div>
+                    </td>
+
+                </tr>
+                <tr class="bg-white" scope="row">
+
+                    <td>
+                        <div class="media align-items-center">
+                            <img src="../assets/images/prv/thumb-2.jpg" class="avatar avatar-lg mr-3">
+                            <div class="media-body">
+                                <h6 class="h5 font-weight-normal mb-0">Dan Holding</h6>
+                                <span class="fontl-weight-normal text-muted">Private Employee</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>dan.holding@example.com</td>
+                    <td>New York, USA</td>
+                    <td>1002</td>
+                    <td>Jan 1 2000</td>
+                    <td>
+                        <div class="custom-control custom-checkbox app-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="td_checkbox_2">
+                            <label class="custom-control-label" for="td_checkbox_2"></label>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr class="bg-white" scope="row">
+
+                    <td>
+                        <div class="media align-items-center">
+                            <span class="avatar avatar-lg bg-blue mr-3">WS</span>
+                            <div class="media-body">
+                                <h6 class="h5 font-weight-normal mb-0">Will Smith</h6>
+                                <span class="font-weight-normal text-muted">Govt Employee</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>will.smith@example.com</td>
+                    <td>Los Angeles, USA</td>
+                    <td>1003</td>
+                    <td>Jan 1 2000</td>
+                    <td>
+                        <div class="custom-control custom-checkbox app-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="td_checkbox_1">
+                            <label class="custom-control-label" for="td_checkbox_1"></label>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="bg-white" scope="row">
+
+                    <td>
+                        <div class="media align-items-center">
+                            <span class="avatar avatar-lg bg-pink mr-3">CT</span>
+                            <div class="media-body">
+                                <h6 class="h5 font-weight-normal mb-0">Charlize Theron</h6>
+                                <span class="font-weight-normal text-muted">Not Disclosed</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>charlize.theron@example.com</td>
+                    <td>Bucharest, RO</td>
+                    <td>1004</td>
+                    <td>Jan 1 2000</td>
+                    <td>
+                        <div class="custom-control custom-checkbox app-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="td_checkbox_1">
+                            <label class="custom-control-label" for="td_checkbox_1"></label>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+
+
+      <div class="container">
+
+        <div class="row">
+          <div class="pad-left">
+            <button type="button" class="btn btn btn-primary btn-icon walletbtns">
+              Aproove Appointment
+            </button>
+          </div>
+          <div class="pad-left">
+            <button type="button" class="btn btn btn-danger btn-icon walletbtns">
+              Delete
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+
+
+      <div class="container">
+        <h2 class=heading-text>Upcoming Appointments</h2>
+      </div>
+
+
+      <div class="container">
+              <table class="table table-hover align-items-center">
+                <thead>
+                    <tr>
+
+                      <th scope="col">Name</th>
+                      <th scope="col">Email</th>
+                      <th scope="col">Location</th>
+                      <th scope="col">Patient id</th>
+                      <th scope="col">Appointment Date</th>
+                      <th scope="col">.</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-white" scope="row">
+                    <td>
+                      <div class="media align-items-center">
+                          <span class="avatar avatar-lg bg-blue mr-3">JL</span>
+                          <div class="media-body">
+                              <h6 class="h5 font-weight-normal mb-0">John Luke</h6>
+                              <span class="font-weight-normal text-muted">Emergency Worker</span>
+                          </div>
+                      </div>
+                    </td>
+                    <td>john.luke@example.com</td>
+                    <td>Los Angeles, USA</td>
+                    <td>1005</td>
+                    <td>Jan 3 2000</td>
+                    <td>
+                      <button type="button" class="btn btn-sm btn-primary">Open Zoom</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+    </main>
+
+
+
+
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+  </body>
+</html>
