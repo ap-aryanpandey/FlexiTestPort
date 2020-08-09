@@ -7,7 +7,7 @@ Patient-centered, privacy protected testing framework leveraging blockchains and
 ## Deliverables
 
 * ### [Presentation:](https://www.canva.com/design/DAD--ZVvMDg/6tr7aKTSek-Ovs1qBurYqA/view?utm_content=DAD--ZVvMDg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) Please follow the link
-* ### [Video Demo:](https://www.youtube.com/watch?v=-kfvbV-x6b8&feature=youtu.be) Please follow the link
+* ### [Video Demo:](https://youtu.be/-kfvbV-x6b8) Please follow the link
 * ### [FlexiTestPort-Solution Architecture and Design:](https://drive.google.com/open?id=1DPH1gaQqZRiRtge-0KJgk8j5sv6UTeYB) Please follow the link
 
 
